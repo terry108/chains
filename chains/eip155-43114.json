@@ -1,10 +1,14 @@
 {
   "name": "Avalanche C-Chain",
   "chain": "AVAX",
+  "icon": "avax",
   "rpc": [
-    "https://api.avax.network/ext/bc/C/rpc"
+    "https://api.avax.network/ext/bc/C/rpc",
+    "https://avalanche-c-chain.publicnode.com",
+    "wss://avalanche-c-chain.publicnode.com"
   ],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
     "symbol": "AVAX",

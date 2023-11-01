@@ -10,7 +10,9 @@
     "decimals": 18
   },
   "rpc": [
-    "https://nova.arbitrum.io/rpc"
+    "https://nova.arbitrum.io/rpc",
+    "https://arbitrum-nova.publicnode.com",
+    "wss://arbitrum-nova.publicnode.com"
   ],
   "faucets": [],
   "explorers": [
@@ -19,12 +21,18 @@
       "url": "https://nova-explorer.arbitrum.io",
       "icon": "blockscout",
       "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://nova.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
     }
   ],
   "infoURL": "https://arbitrum.io",
   "parent": {
-     "type" : "L2",
-     "chain": "eip155-1",
-     "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
   }
 }
